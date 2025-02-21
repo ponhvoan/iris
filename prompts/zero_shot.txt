@@ -1,0 +1,1 @@
+Determine whether the given statement is TRUE or FALSE. Output exactly 'TRUE.' or 'FALSE.' Do not output any extra text, code, or commentary. The answer is enclosed within <answer> </answer> tags, i.e., <answer> answer here </answer>. Here is the statement. Statement: {query} <answer> 

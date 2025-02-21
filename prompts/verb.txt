@@ -1,0 +1,17 @@
+Provide the probability that the given statement is correct. The probability must be between 0.00 and 1.00.
+
+Example 1:
+Statement: Sotos syndrome is characterized by delayed bone age and is caused by various genetic mutations, including NSD1 gene mutations in around 90% of cases.
+Probability: 0.17
+
+Example 2:
+Statement: The World Health Organization (WHO) provides estimates on the number of people globally affected by blindness or low vision due to cataracts.
+Probability: 0.88
+
+Example 3:
+Statement: Financial records such as bank statements, credit card statements, and canceled checks are usually kept for at least one year.
+Probability: 0.74
+
+Your Turn:
+Statement: {query}
+Probability: 

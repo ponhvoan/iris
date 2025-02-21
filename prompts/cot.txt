@@ -1,0 +1,28 @@
+Determine whether the given statement is TRUE or FALSE. Output only a single sentence of reasoning and then exactly 'TRUE.' or 'FALSE.' Do not output any extra text, code, or commentary. The reasoning process and answer are enclosed within <think> </think> and <answer> </answer> tags, respectively, i.e., <think> reason in a single sentence here </think> <answer> answer here </answer>. Here are some examples:
+
+Example 1:
+Statement: 
+Sotos syndrome is characterized by delayed bone age and is caused by various genetic mutations, including NSD1 gene mutations in around 90% of cases.
+
+<think> Delayed bone age is not characteristic of Sotos syndrome; instead, it typically involves advanced bone age. <\think>
+
+<answer> FALSE. </answer>
+
+Example 2:
+Statement: The World Health Organization (WHO) provides estimates on the number of people globally affected by blindness or low vision due to cataracts.
+
+<think> The WHO monitors and publishes global health statistics, including vision-related conditions. </think>
+
+<answer> TRUE. </answer>
+
+Example 3:
+Statement: Financial records such as bank statements, credit card statements, and canceled checks are usually kept for at least one year.
+
+<think> The standard timeframe for retaining such records is typically at least one year or more, depending on specific needs or local regulations. </think>
+
+<answer> TRUE. </answer>
+
+Your Turn:
+Statement: {query}
+
+<think> 
