@@ -1,6 +1,6 @@
 ## Unsupervised Hallucincation Detection by Inspecting Reasoning Processes
 
-This repository contains the official implementation of  **EMNLP 2025 main paper** ["Unsupervised Hallucincation Detection by Inspecting Reasoning Processes"](https://arxiv.org/abs/2509.10004). We propose Internal Reasoning for Inference of Statement veracity (IRIS), an unsupervised hallucination detection framework inspects the uncertainty of the reasoning process when determining the factuality of a statement.
+This repository contains the official implementation of  **EMNLP 2025 main paper** ["Unsupervised Hallucincation Detection by Inspecting Reasoning Processes"](https://arxiv.org/abs/2509.10004). We propose Internal Reasoning for Inference of Statement veracity (IRIS), an unsupervised hallucination detection framework that inspects the uncertainty of the reasoning process when determining statement factuality.
  
 The detection pipeline works in two stages:
 1. For each statement in the dataset, we prompt a proxy model to *carefully verify its truth value*. We obtain (i). the contextualized embeddings as features; and (ii). the uncertainty in its response as a pseudolabel.
